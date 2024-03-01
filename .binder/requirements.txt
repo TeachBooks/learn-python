@@ -1,7 +1,0 @@
-jupytext
-jupyterlab
-matplotlib
-numpy
-pandas
-seaborn
-learn-python-check
