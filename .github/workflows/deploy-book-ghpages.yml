@@ -61,7 +61,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.branch }}
-        path: final 
+        path: "final/$FOLDER" 
 
   deploy-books:
     # Run after build-books, even if it failed
