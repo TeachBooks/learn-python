@@ -47,14 +47,20 @@ jobs:
     # Build the book
     - name: Build the book from main branch
       run: |
+        if [ "${{ matrix.branch }}" == "main" ]; then
+          FOLDER="book"
+        else
+          FOLDER="draft-book"
+        fi
         jupyter-book build book/
+        mv book/_build/html "final/$FOLDER"
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.branch }}
-        path: "book/_build/html"
+        path: final 
 
   deploy-books:
     # Run after build-books, even if it failed
@@ -65,13 +71,13 @@ jobs:
       pages: write
       id-token: write
     steps:
-    - run: |
+    - run: | 
         mkdir final/
 
     - name: Download all book artifacts
       uses: actions/download-artifact@v4
       with:
-        path: "final/"
+        path: "final/" 
 
     - name: Upload final Pages artifact
       uses: actions/upload-pages-artifact@v3
