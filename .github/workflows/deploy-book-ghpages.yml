@@ -53,6 +53,7 @@ jobs:
           FOLDER="draft-book"
         fi
         jupyter-book build book/
+        mkdir -p "final/$FOLDER"
         mv book/_build/html "final/$FOLDER"
 
     # Upload the book's HTML as an artifact
