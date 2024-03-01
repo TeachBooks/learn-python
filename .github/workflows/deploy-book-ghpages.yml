@@ -1,0 +1,89 @@
+name: deploy-book
+
+# Based on:
+# https://jupyterbook.org/en/stable/publish/gh-pages.html
+
+# Try: run on push in a branch: deploy a version for that branch
+
+# Run this when the master or main branch changes
+on:
+  push:
+    branches:
+    - '*'
+    # If your git repository has the Jupyter Book within some-subfolder next to
+    # unrelated files, you can make this run only if a file within that specific
+    # folder has been modified.
+    #
+    # paths:
+    # - some-subfolder/**
+  workflow_dispatch:
+
+jobs:
+  build-books:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    strategy:
+      # If one branch fails, we may still want to deploy the other
+      fail-fast: false
+      matrix:
+        branch: ["main", "draft"]
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ matrix.branch }}
+
+    # Install dependencies
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    # Build the book
+    - name: Build the book from main branch
+      run: |
+        jupyter-book build book/
+
+    # Upload the book's HTML as an artifact
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.branch }}
+        path: "book/_build/html"
+
+  deploy-books:
+    # Run after build-books, even if it failed
+    if: always()
+    needs: build-books
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+    - run: |
+        mkdir final/
+
+    - name: Download all book artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: "final/"
+
+    - name: Upload final Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: "final/"
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
