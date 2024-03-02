@@ -71,14 +71,6 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-      with:
-        path: "${{ env.DEPLOY_DIR }}/_build/html"
-
-
-    # # Deploy the book's HTML to GitHub Pages
-    # - name: Deploy to GitHub Pages
-    #   id: deployment
-    #   uses: actions/deploy-pages@v2
 
 permissions:
   contents: read
