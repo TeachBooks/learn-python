@@ -44,15 +44,18 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    - name: Set output folder
+      run: |
+        if [ "${{ matrix.branch }}" == "main" ]; then
+          echo "FOLDER=book" >> $GITHUB_ENV"
+        else
+          echo "FOLDER=draft-book" >> $GITHUB_ENV"
+        fi
+
     # Build the book
     - name: Build the book from branch
       run: |
-        if [ "${{ matrix.branch }}" == "main" ]; then
-          FOLDER="book"
-        else
-          FOLDER="draft-book"
-        fi
-        jupyter-book build book/ --path-output $FOLDER
+        jupyter-book build ${{ env.FOLDER }}    
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
