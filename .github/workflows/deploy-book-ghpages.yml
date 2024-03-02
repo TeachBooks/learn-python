@@ -48,9 +48,9 @@ jobs:
     - name: Set output folder
       run: |
         if [ "${{ matrix.branch }}" == "main" ]; then
-          echo "FOLDER=book" >> $GITHUB_ENV"
+          echo "FOLDER=book" >> $GITHUB_ENV
         else
-          echo "FOLDER=draft-book" >> $GITHUB_ENV"
+          echo "FOLDER=draft-book" >> $GITHUB_ENV
         fi
 
     - name: Debug FOLDER variable
