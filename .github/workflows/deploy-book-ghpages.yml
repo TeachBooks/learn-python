@@ -58,10 +58,27 @@ jobs:
       with:
         path: "book/_build/html"
 
+      # Determine the deployment directory based on the branch
+    - name: Set deployment directory
+      run: |
+        if [ "${GITHUB_REF##*/}" = "main" ]; then
+          echo "DEPLOY_DIR=book" >> $GITHUB_ENV
+        else
+          echo "DEPLOY_DIR=draft-book" >> $GITHUB_ENV
+        fi
+
     # Deploy the book's HTML to GitHub Pages
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
+      with:
+        path: "${{ env.DEPLOY_DIR }}/_build/html"
+
+
+    # # Deploy the book's HTML to GitHub Pages
+    # - name: Deploy to GitHub Pages
+    #   id: deployment
+    #   uses: actions/deploy-pages@v2
 
 permissions:
   contents: read
