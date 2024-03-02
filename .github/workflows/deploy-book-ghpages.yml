@@ -45,23 +45,21 @@ jobs:
         pip install -r requirements.txt
 
     # Build the book
-    - name: Build the book from main branch
+    - name: Build the book from branch
       run: |
         if [ "${{ matrix.branch }}" == "main" ]; then
           FOLDER="book"
         else
           FOLDER="draft-book"
         fi
-        jupyter-book build book/
-        mkdir -p "final/$FOLDER"
-        mv book/_build/html "final/$FOLDER"
+        jupyter-book build book/ --path-output $FOLDER
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.branch }}
-        path: "final/$FOLDER" 
+        path: ${{ github.workspace }}/${{ env.FOLDER }}/_build/html
 
   deploy-books:
     # Run after build-books, even if it failed
