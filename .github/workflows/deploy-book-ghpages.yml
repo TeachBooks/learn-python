@@ -34,16 +34,17 @@ jobs:
       with:
         ref: ${{ matrix.branch }}
 
-    # Install dependencies
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.11
+    # # Install dependencies
+    # - name: Set up Python 3.11
+    #   uses: actions/setup-python@v5
+    #   with:
+    #     python-version: 3.11
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+    # - name: Install dependencies
+    #   run: |
+    #     pip install -r requirements.txt
 
+    # Set the output folder based on the branch
     - name: Set output folder
       run: |
         if [ "${{ matrix.branch }}" == "main" ]; then
@@ -52,43 +53,48 @@ jobs:
           echo "FOLDER=draft-book" >> $GITHUB_ENV"
         fi
 
-    # Build the book
-    - name: Build the book from branch
+    - name: Debug FOLDER variable
       run: |
-        jupyter-book build ${{ env.FOLDER }}    
+        echo $FOLDER
+        echo "FOLDER=${{ env.FOLDER }}"
 
-    # Upload the book's HTML as an artifact
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ matrix.branch }}
-        path: ${{ github.workspace }}/${{ env.FOLDER }}/_build/html
+  #   # Build the book
+  #   - name: Build the book from branch
+  #     run: |
+  #       jupyter-book build ${{ env.FOLDER }}    
 
-  deploy-books:
-    # Run after build-books, even if it failed
-    if: always()
-    needs: build-books
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-    - run: | 
-        mkdir final/
+  #   # Upload the book's HTML as an artifact
+  #   - name: Upload artifact
+  #     uses: actions/upload-artifact@v4
+  #     with:
+  #       name: ${{ matrix.branch }}
+  #       path: ${{ github.workspace }}/${{ env.FOLDER }}/_build/html
 
-    - name: Download all book artifacts
-      uses: actions/download-artifact@v4
-      with:
-        path: "final/" 
+  # deploy-books:
+  #   # Run after build-books, even if it failed
+  #   if: always()
+  #   needs: build-books
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     pages: write
+  #     id-token: write
+  #   steps:
+  #   - run: | 
+  #       mkdir final/
 
-    - name: Upload final Pages artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: "final/"
+  #   - name: Download all book artifacts
+  #     uses: actions/download-artifact@v4
+  #     with:
+  #       path: "final/" 
+
+  #   - name: Upload final Pages artifact
+  #     uses: actions/upload-pages-artifact@v3
+  #     with:
+  #       path: "final/"
     
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+  #   - name: Deploy to GitHub Pages
+  #     id: deployment
+  #     uses: actions/deploy-pages@v4
 
 
 permissions:
