@@ -89,15 +89,13 @@ jobs:
       with:
         path: "final/"
 
-    - name: Symlink `book` to `main`
+    - name: Move primary book to root, fail if names conflict
+      timeout-minutes: 1
       run: |
-        if test -d final/main; then
-          ln -s main final/book
-        fi
-
-    - name: Load root page to redirect to `book/`
-      run: |
-        cp redirect.html final/index.html
+        GLOBIGNORE=".:.."
+        # -i leads to a prompt in case of conflict, => a timeout
+        cp -irv final/main/* final/
+        ls -a final/
 
     - name: Upload final Pages artifact
       uses: actions/upload-pages-artifact@v3
