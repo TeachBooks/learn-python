@@ -1,4 +1,4 @@
-jupyter-book
+teachbooks
 matplotlib
 numpy
 jupyterquiz
