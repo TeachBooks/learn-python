@@ -1,4 +1,4 @@
-(draft test) Welcome to **Python for Engineers**. We're excited to have you join us in this self-paced online course, which is designed to improve your Python skills as well as your understanding of computer programming---especially for applications in engineering and the applied geosciences. Believe it or not, as long as you are using a modern internet browser, you can take complete this course without installing a single piece of extra software!
+Welcome to **Python for Engineers**. We're excited to have you join us in this self-paced online course, which is designed to improve your Python skills as well as your understanding of computer programming---especially for applications in engineering and the applied geosciences. Believe it or not, as long as you are using a modern internet browser, you can take complete this course without installing a single piece of extra software!
 <!-- Join us to automate tasks, analyze data, visualize information, and develop efficient algorithms. Embrace this opportunity to expand your horizons and unlock new possibilities in your academic and professional journey.  -->
 
 ```{admonition} What do we mean by "engineers"?
