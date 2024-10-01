@@ -44,11 +44,11 @@ parts:
       - file: 07/Exercises/bug_report.md 
     - file: 08/overview
       sections:
-      - file: 08/Exercises/errors
-      - file: 08/Exercises/traceback
-      - file: 08/Exercises/assertions
-      - file: 08/Exercises/errors_raise_handle
-      - file: 08/Exercises/exercises
+      - file: 08/errors
+      - file: 08/traceback
+      - file: 08/assertions
+      - file: 08/errors_raise_handle
+      - file: 08/exercises
   - caption: End of course survey
     chapters:
     - file: End-of-course-survey.md
