@@ -46,8 +46,8 @@ parts:
       sections:
       - file: 08/errors
       - file: 08/traceback
-      - file: 08/assertions
       - file: 08/errors_raise_handle
+      - file: 08/assertions
       - file: 08/exercises
   - caption: End of course survey
     chapters:
