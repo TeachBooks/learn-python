@@ -42,7 +42,7 @@ parts:
       sections:
       - file: 07/Exercises/01.ipynb
       - file: 07/Exercises/bug_report.md 
-    - file: 08/overview
+    - file: 08/theory.ipynb
       sections:
       - file: 08/exercises
   - caption: End of course survey
