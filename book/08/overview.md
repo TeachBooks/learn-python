@@ -1,4 +1,4 @@
-# Debugging and Testing
+# 8. Debugging and Testing
 
 <!-- ## Contents
 - [Introduction](#Introduction)
