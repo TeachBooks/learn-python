@@ -18,11 +18,13 @@ This chapter is focused on software testing with Python---it focuses on a number
 
 Testing our code is necessary, because we as humans all make mistakes. Some of our mistakes may not be that important, but some can be dangeours and harmful. There are numerous examples of the latter such as the explosion of the Ariane 5 rocket or the problem with NASA’s Mars Climate Orbiter. You can read more on these examples [here](https://medium.com/swlh/some-of-the-most-famous-bugs-in-software-history-bb16a2ee3f8e). Testing our code for hidden flaws is the first step towards ensuring that the programs we write are robust.
 
-<p align="center">
-<img src="https://static.wixstatic.com/media/cfc1ef_55f398d6fbdb418ea4970567251efe6a.png/v1/fill/w_680,h_476,al_c,q_95/cfc1ef_55f398d6fbdb418ea4970567251efe6a.webp" width="40%" 
-     alt="Mars Climate Orbiter disaster - cartoon"/>
-</p>     
-<figcaption align = "left">A depiction of the NASA's Mars Climate Orbiter disaster. The incongruence in the units used by scientists at NASA (metric unit) and Lockheed Martin (US customary units) led the space probe too close to the planet. It was either destroyed in the atmosphere or escaped the planet's vicinity and entered an orbit around the Sun. (Source: Unleesh.com).</figcaption>
+```{figure} https://static.wixstatic.com/media/cfc1ef_55f398d6fbdb418ea4970567251efe6a.png/v1/fill/w_680,h_476,al_c,q_95/cfc1ef_55f398d6fbdb418ea4970567251efe6a.webp
+---
+name: nasa
+---
+A depiction of the NASA's Mars Climate Orbiter disaster. The incongruence in the units used by scientists at NASA (metric unit) and Lockheed Martin (US customary units) led the space probe too close to the planet. It was either destroyed in the atmosphere or escaped the planet's vicinity and entered an orbit around the Sun. (Source: Unleesh.com)
+```
+
 
 **What is debugging?**
 

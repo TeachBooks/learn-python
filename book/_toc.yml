@@ -42,6 +42,13 @@ parts:
       sections:
       - file: 07/Exercises/01.ipynb
       - file: 07/Exercises/bug_report.md 
+    - file: 08/overview
+      sections:
+      - file: 08/Exercises/errors
+      - file: 08/Exercises/traceback
+      - file: 08/Exercises/assertions
+      - file: 08/Exercises/errors_raise_handle
+      - file: 08/Exercises/exercises
   - caption: End of course survey
     chapters:
     - file: End-of-course-survey.md
