@@ -42,9 +42,13 @@ parts:
       sections:
       - file: 07/Exercises/01.ipynb
       - file: 07/Exercises/bug_report.md 
-    - file: 08/theory.ipynb
+    - file: 08/intro.ipynb
       sections:
-      - file: 08/exercises
+      - file: 08/error_types.ipynb
+      - file: 08/traceback.ipynb
+      - file: 08/raise_errors.ipynb
+      - file: 08/handling_errors.ipynb
+      - file: 08/asserts.ipynb
   - caption: End of course survey
     chapters:
     - file: End-of-course-survey.md
