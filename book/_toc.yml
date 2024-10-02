@@ -42,7 +42,7 @@ parts:
       sections:
       - file: 07/Exercises/01.ipynb
       - file: 07/Exercises/bug_report.md 
-    - file: 08/intro.ipynb
+    - file: 08/intro.md
       title: 8. Errors
       sections:
       - file: 08/error_types.ipynb
