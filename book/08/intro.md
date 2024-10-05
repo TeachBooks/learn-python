@@ -12,7 +12,7 @@
 - [Exercises](#Exercises)
 - [References and used resources](#References-and-used-resources) -->
 
-This chapter is focused on software testing with Python---it focuses on a number of different topics to help you identify and fix errors. Incorporating the concepts in this chapter into your own coding practice will help you fix problems in the future, especially as you work on larger projects with multiple people. 
+This chapter focuses on a number of different topics to help you identify and fix _errors,_ which are an essential component of _software testing._ Incorporating the concepts in this chapter into your own coding practice will help you fix problems in the future, especially as you work on larger projects with multiple people.
 
 **Why should we learn about software testing?**
 
