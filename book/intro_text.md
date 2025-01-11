@@ -1,3 +1,5 @@
+% The content of this page is included in two places: the home page of the book intro.md (not listed in ToC), as well as in the Introduction Part of the book Intro_in_ToC.md (listed in ToC)
+
 Welcome to **Python for Engineers**. We're excited to have you join us in this self-paced online course, which is designed to improve your Python skills as well as your understanding of computer programming---especially for applications in engineering and the applied geosciences. Believe it or not, as long as you are using a modern internet browser, you can take complete this course without installing a single piece of extra software!
 <!-- Join us to automate tasks, analyze data, visualize information, and develop efficient algorithms. Embrace this opportunity to expand your horizons and unlock new possibilities in your academic and professional journey.  -->
 
