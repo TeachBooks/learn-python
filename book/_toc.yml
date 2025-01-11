@@ -2,11 +2,11 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: intro_not_in_toc.md
 parts:
   - caption: Introduction
     chapters:
-    - file: intro_in_toc.md
+    - file: intro.md
       title: Course Overview
     - file: Python_intro.md
       title: Programming and Python
