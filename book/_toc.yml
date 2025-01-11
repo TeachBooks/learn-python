@@ -2,11 +2,11 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: introduction.md
 parts:
   - caption: Introduction
     chapters:
-    - file: Intro_in_ToC.md
+    - file: intro.md
       title: Course Overview
     - file: Python_intro.md
       title: Programming and Python
@@ -16,32 +16,25 @@ parts:
     - file: 01/Theory/01.ipynb
       sections:
       - file: 01/Exercises/01.ipynb
-      - file: 01/Exercises/bug_report.md
     - file: 02/Theory/01.ipynb
       sections:
       - file: 02/Exercises/01.ipynb
-      - file: 02/Exercises/bug_report.md      
     - file: 03/Theory/01.ipynb
       sections:
-      - file: 03/Exercises/01.ipynb
-      - file: 03/Exercises/bug_report.md          
+      - file: 03/Exercises/01.ipynb      
     - file: 04/Theory/01.ipynb
       sections:
       - file: 04/Exercises/01.ipynb
-      - file: 04/Exercises/bug_report.md 
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
       - file: 05/Exercises/02.ipynb
-      - file: 05/Exercises/bug_report.md 
     - file: 06/Theory/01.ipynb
       sections:
       - file: 06/Exercises/01.ipynb
-      - file: 06/Exercises/bug_report.md 
     - file: 07/Theory/01.ipynb
       sections:
       - file: 07/Exercises/01.ipynb
-      - file: 07/Exercises/bug_report.md 
     - file: 08/sympy
       title: 8. SymPy
     - file: 09/intro.md
