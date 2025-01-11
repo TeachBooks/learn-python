@@ -35,4 +35,10 @@ It's really quite simple: read through the 3 Chapters in the Introduction part, 
 
 ## Feedback and Corrections
 
-We appreciate help to identify mistakes in our course. Links will soon be posted here to help us fix them, as well as a short survey to see if you liked the course!
+We are always interested in improving this online book and appreciate help to identify mistakes, as well as general suggestions. The best way to do this is by using the buttons at the top right of each page which link directly to the GitHub repository where this website is hosted. In particular:
+- the "Suggest Edit" option allows you to make a correction or suggestion directly (as a Git "commit")
+- the "Issue" option allows you to report a general problem or suggest a new feature
+
+Note that you will need a GitHub account to do this. Once your edit or Issue is submitted, we will incorporate any changes into the book using a Pull Request, and you will be notified via GitHub when this is done.
+
+If this doesn't work for you, feel free to simply send an email to R.C.Lanzafame@tudelft.nl.
