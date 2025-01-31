@@ -14,6 +14,7 @@ parts:
   - caption: Course Contents
     chapters:
     - file: 01/Theory/01.ipynb
+      tile: Python Basics
       sections:
       - file: 01/Exercises/01.ipynb
     - file: 02/Theory/01.ipynb
