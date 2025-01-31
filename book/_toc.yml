@@ -13,9 +13,13 @@ parts:
     - file: Python_Toolbox.md
   - caption: Course Contents
     chapters:
-    - file: 01/Theory/01.ipynb
+    - file: 01/Theory/overview.md
       title: Python Basics
       sections:
+      - file: 01/Theory/01.ipynb
+      - file: 01/Theory/02.ipynb
+      - file: 01/Theory/03.ipynb
+      - file: 01/Theory/04.ipynb
       - file: 01/Exercises/01.ipynb
     - file: 02/Theory/01.ipynb
       sections:
