@@ -60,7 +60,10 @@ parts:
   - caption: In a Nutshell
     numbered: true
     chapters:
-    - file: basics/nutshell/01.ipynb
+    - file: basics/nutshell.md
+      title: Basics
+      sections:
+      - file: basics/nutshell/01.ipynb
     - file: 02/In_a_Nutshell/01.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
