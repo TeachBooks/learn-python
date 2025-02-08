@@ -15,14 +15,15 @@ parts:
   - caption: Course Contents
     numbered: true
     chapters:
-    - file: 01/01.md
-      title: Python Basics
+    - file: basics.md
+      title: Basics
       sections:
-      - file: 01/Subpages/01.ipynb
-      - file: 01/Subpages/02.ipynb
-      - file: 01/Subpages/03.ipynb
-      - file: 01/Subpages/04.ipynb
-      - file: 01/Exercises/01.ipynb
+      - file: basics/hello.ipynb
+        title: Your First Script
+      - file: basics/variables.ipynb
+      - file: basics/operators.ipynb
+      - file: basics/functions.ipynb
+      - file: basics/Exercises/01.ipynb
     - file: 02/Theory/01.ipynb
       sections:
       - file: 02/Exercises/01.ipynb
@@ -59,7 +60,7 @@ parts:
   - caption: In a Nutshell
     numbered: true
     chapters:
-    - file: 01/In_a_Nutshell/01.ipynb
+    - file: basics/nutshell/01.ipynb
     - file: 02/In_a_Nutshell/01.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
