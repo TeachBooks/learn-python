@@ -9,9 +9,9 @@ parts:
     chapters:
     - file: intro.md
       title: Course Overview
-    - file: Python_intro.md
+    - file: python.md
       title: Programming and Python
-    - file: Python_Toolbox.md
+    - file: toolbox.md
   - caption: Course Contents
     numbered: true
     chapters:
