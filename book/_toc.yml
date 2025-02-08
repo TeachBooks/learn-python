@@ -5,6 +5,7 @@ format: jb-book
 root: introduction.md
 parts:
   - caption: Introduction
+    numbered: false
     chapters:
     - file: intro.md
       title: Course Overview
@@ -12,6 +13,7 @@ parts:
       title: Programming and Python
     - file: Python_Toolbox.md
   - caption: Course Contents
+    numbered: true
     chapters:
     - file: 01/01.md
       title: Python Basics
@@ -51,9 +53,11 @@ parts:
       - file: 09/handling_errors.ipynb
       - file: 09/asserts.ipynb
   - caption: End of course survey
+    numbered: false
     chapters:
     - file: End-of-course-survey.md
   - caption: In a Nutshell
+    numbered: true
     chapters:
     - file: 01/In_a_Nutshell/01.ipynb
     - file: 02/In_a_Nutshell/01.ipynb
