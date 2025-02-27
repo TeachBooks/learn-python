@@ -64,13 +64,13 @@ parts:
       numbered: true
       sections:
       - file: basics/nutshell/hello.ipynb
-        numbered: true
+        numbered: false
       - file: basics/nutshell/variables.ipynb
-        numbered: true
+        numbered: false
       - file: basics/nutshell/operators.ipynb
-        numbered: true
+        numbered: false
       - file: basics/nutshell/functions.ipynb
-        numbered: true
+        numbered: false
     - file: 02/In_a_Nutshell/01.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
