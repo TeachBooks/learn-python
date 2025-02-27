@@ -58,6 +58,7 @@ parts:
     chapters:
     - file: End-of-course-survey.md
   - caption: In a Nutshell
+    numbered: true
     chapters:
     - file: basics/nutshell.md
       title: Basics
