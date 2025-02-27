@@ -62,7 +62,6 @@ parts:
     chapters:
     - file: basics/nutshell.md
       title: Basics
-      numbered: true
       sections:
       - file: basics/nutshell/hello.ipynb
         numbered: false
