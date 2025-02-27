@@ -58,19 +58,19 @@ parts:
     chapters:
     - file: End-of-course-survey.md
   - caption: In a Nutshell
-    numbered: true
     chapters:
     - file: basics/nutshell.md
       title: Basics
+      numbered: true
       sections:
       - file: basics/nutshell/hello.ipynb
-      numbered: false
+        numbered: true
       - file: basics/nutshell/variables.ipynb
-      numbered: false
+        numbered: true
       - file: basics/nutshell/operators.ipynb
-      numbered: false
+        numbered: true
       - file: basics/nutshell/functions.ipynb
-      numbered: false
+        numbered: true
     - file: 02/In_a_Nutshell/01.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
