@@ -5,17 +5,25 @@ format: jb-book
 root: introduction.md
 parts:
   - caption: Introduction
+    numbered: false
     chapters:
     - file: intro.md
       title: Course Overview
-    - file: Python_intro.md
+    - file: python.md
       title: Programming and Python
-    - file: Python_Toolbox.md
+    - file: toolbox.md
   - caption: Course Contents
+    numbered: true
     chapters:
-    - file: 01/Theory/01.ipynb
+    - file: basics.md
+      title: Basics
       sections:
-      - file: 01/Exercises/01.ipynb
+      - file: basics/hello.ipynb
+        title: Your First Script
+      - file: basics/variables.ipynb
+      - file: basics/operators.ipynb
+      - file: basics/functions.ipynb
+      - file: basics/Exercises/01.ipynb
     - file: 02/Theory/01.ipynb
       sections:
       - file: 02/Exercises/01.ipynb
@@ -46,11 +54,19 @@ parts:
       - file: 09/handling_errors.ipynb
       - file: 09/asserts.ipynb
   - caption: End of course survey
+    numbered: false
     chapters:
     - file: End-of-course-survey.md
   - caption: In a Nutshell
+    numbered: 2
     chapters:
-    - file: 01/In_a_Nutshell/01.ipynb
+    - file: basics/nutshell.md
+      title: Basics
+      sections:
+      - file: basics/nutshell/hello.ipynb
+      - file: basics/nutshell/variables.ipynb
+      - file: basics/nutshell/operators.ipynb
+      - file: basics/nutshell/functions.ipynb
     - file: 02/In_a_Nutshell/01.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
