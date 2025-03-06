@@ -31,9 +31,13 @@ parts:
       - file: flow/structures.ipynb
       - file: flow/loops.ipynb
       - file: flow/Exercises/01.ipynb
-    - file: 03/Theory/01.ipynb
+    - file: advanced-techniques.md
+      title: Advanced Techniques
       sections:
-      - file: 03/Exercises/01.ipynb      
+      - file: advanced-techniques/string.ipynb
+      - file: advanced-techniques/functions.ipynb
+      - file: advanced-techniques/files.ipynb
+      - file: advanced-techniques/Exercises/01.ipynb   
     - file: 04/Theory/01.ipynb
       sections:
       - file: 04/Exercises/01.ipynb
@@ -76,8 +80,12 @@ parts:
       sections:
       - file: flow/nutshell/conditions.ipynb
       - file: flow/nutshell/structures.ipynb
-      - file: flow/nutshell/loops.ipynb
-    - file: 03/In_a_Nutshell/01.ipynb
+    - file: advanced-techniques/nutshell.md
+      title: Advanced Techniques
+      sections:
+      - file: advanced-techniques/nutshell/strings.ipynb
+      - file: advanced-techniques/nutshell/functions.ipynb
+      - file: advanced-techniques/nutshell/files.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
