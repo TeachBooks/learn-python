@@ -24,9 +24,13 @@ parts:
       - file: basics/operators.ipynb
       - file: basics/functions.ipynb
       - file: basics/Exercises/01.ipynb
-    - file: 02/Theory/01.ipynb
+    - file: flow.md
+      title: Flow
       sections:
-      - file: 02/Exercises/01.ipynb
+      - file: flow/conditions.ipynb
+      - file: flow/structures.ipynb
+      - file: flow/loops.ipynb
+      - file: flow/Exercises/01.ipynb
     - file: 03/Theory/01.ipynb
       sections:
       - file: 03/Exercises/01.ipynb      
@@ -67,7 +71,12 @@ parts:
       - file: basics/nutshell/variables.ipynb
       - file: basics/nutshell/operators.ipynb
       - file: basics/nutshell/functions.ipynb
-    - file: 02/In_a_Nutshell/01.ipynb
+    - file: flow/nutshell.md
+      title: Flow
+      sections:
+      - file: flow/nutshell/conditions.ipynb
+      - file: flow/nutshell/structures.ipynb
+      - file: flow/nutshell/loops.ipynb
     - file: 03/In_a_Nutshell/01.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
