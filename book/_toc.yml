@@ -16,7 +16,7 @@ parts:
     numbered: true
     chapters:
     - file: basics.md
-      title: Basics
+      title: Beyond the Basics
       sections:
       - file: basics/hello.ipynb
         title: Your First Script
@@ -37,8 +37,11 @@ parts:
       title: Beyond the Basics
       sections:
       - file: beyond/strings.ipynb
+        title: Strings
       - file: beyond/functions.ipynb
+        title: Functions
       - file: beyond/files.ipynb
+        title: Files
       - file: beyond/Exercises/01.ipynb   
     - file: 04/Theory/01.ipynb
       sections:
@@ -83,11 +86,14 @@ parts:
       - file: flow/nutshell/conditions.ipynb
       - file: flow/nutshell/structures.ipynb
     - file: beyond/nutshell.md
-      title: Advanced Techniques
+      title: Beyond the Basics
       sections:
       - file: beyond/nutshell/strings.ipynb
+        title: Strings
       - file: beyond/nutshell/functions.ipynb
+        title: Functions
       - file: beyond/nutshell/files.ipynb
+        title: Files
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
