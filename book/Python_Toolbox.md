@@ -1,6 +1,13 @@
+(toolbox)=
 # Python Toolbox
 
-This page describes how you will interact with Python in this course, specifically via IPython and Jupyter Notebooks. **IPython** is an interactive Python interpreter that adds feautures that are useful for engineering, such as command history or inline display of figures. As you will see below, you can enter multiple lines of text and evaluate them at once; this is often referred to as a *cell* of code. In a nutshell, if you string many of these cells together into a single digital document, you more or less end up with a **Jupyter Notebook**; this leverages the power of IPython by allowing you to type, run and save the cells in any order, as well as type formatted text in between. Together, these two tools make up our toolbox for this course, and, as you will see, both of them can run in your internet browser, so there is no need to install special software!
+This page describes several ways to write and execute Python code, some of which don't require any installation on your computer and work entirely in a web browser! These approaches are described in the sections below, and are based on the tools IPython and Jupyter Notebooks.
+
+**IPython** is an interactive Python interpreter that adds features that are useful for engineering, such as command history or inline display of figures. As you will see below, you can enter multiple lines of text and evaluate them at once; this is often referred to as a *cell* of code. In a nutshell, if you string many of these cells together into a single digital document, you more or less end up with a **Jupyter Notebook**; this leverages the power of IPython by allowing you to type, run and save the cells in any order, as well as type formatted text in between. Together, these two tools make up our toolbox for this course, and, as you will see, both of them can run in your internet browser, so there is no need to install special software!
+
+## Interactive Pages
+
+This course is powered by a special software (the [Sphinx-Thebe](https://github.com/executablebooks/sphinx-thebe) that allows you to run Python code in your browser and gives you an experience that is more or less identical the the "standard" Jupyter Notebook experience you would have on your own computer if you installed the dedicated software. You can access this tool by clicking on the rocket icon ({fa}`rocket`) at the top right of a page where this is enabled. 
 
 (calculator)=
 ## IPython: Your Primary Python Calculator
@@ -20,24 +27,13 @@ The simple exercise above should be all you need to get started with this course
 :class: tip, dropdown
 Click this <a href="https://tudelft-citg.github.io/learn-python-calculator/repl/index.html?toolbar=1&kernel=python&code=print('You may begin!')" target="_blank">link</a> and wait until the message "<tt>You may begin!</tt>" is printed to start evaluating code. More information about this tool can be found [here](calculator). 
 
-Remember that all pages in this course can also be opened as an interactive notebook via Binder or Colab using the {fa}rocket icon above (read more about it [here](nb-links)).
+Remember that most pages in this course can also be run interactively using the {fa}rocket icon above (read more about it [here](toolbox)).
 `````
 
 All exercises in this course can be completed using only the Python Calculator. We hope you find it to be a simple but useful way to practice and learn the Python programming language.
 
 ```{note}
 A special instance of the Python Calculator is set up for each page which pre-loads a few packages needed to complete the exercise. Make sure you use link that is on the page of the exercises you are working on. 
-```
-
-(nb-links)=
-## Interactive Jupyter Notebooks
-
-Although the Python Calculator is all that is needed, it is nice to be able to explore Python by using a Jupyter Notebook. There are two ways these notebooks have been set up to avoid the need for special software, namely: Binder and Colab. These notebooks allow you to run your script in cells, where each cell is equivalent to those in the IPython interpreter. Running cell blocks is more convenient for data analysis since sometimes you just need to change a small part of your code or add some explanation, math formulas, or figures. Therefore, re-running only the corresponding cell is much more efficient.
-
-No example is provided here, but you can access this tool elsewhere in this course using the links under the rocket icon ({fa}`rocket`) at the top right of the page. Although Colab is the fastest and most reliable service, it is provided by Google, and the data privacy policy is not always clear. As such, Binder is provided as an alternative, but note that sometimes it takes a while for the notebook to load. Both of these options do not allow you to save your work in the notebook (unless you download a file or link a Google account), so be careful when closing a tab!
-
-```{note}
-Due to the way this website is generated from Jupyter Notebooks, when you view the files in Binder or Colab, you will notice oddly formatted text cells: this is the code to generate features like this note on the website, which do not render properly in the notebook environment. You can simply ignore them. In addition, whereas the Python Calculator windows will load properly, there are special pieces of code that need to be run in the notebooks to get them to work properly. Simply follow the instructions in the commented code cell near the top of the notebook, which involves uncommenting one or two lines and executing the cell.
 ```
 
 ## Anaconda: Python on Your Computer

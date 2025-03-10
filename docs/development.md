@@ -35,7 +35,7 @@ The example below chooses the kernel, imports pandas and the answer-checker and 
 :class: tip, dropdown
 Click this <a href="https://tudelft-citg.github.io/learn-python-calculator/repl/index.html?toolbar=1&kernel=python&code=import pandas as pd; import data.check_answers as check; print('You may begin!')" target="_blank">link</a> and wait until the message "<tt>You may begin!</tt>" is printed to start evaluating code. More information about this tool can be found [here](calculator). 
 
-Remember that all pages in this course can also be opened as an interactive notebook via Binder or Colab using the {fa}rocket icon above (read more about it [here](nb-links)).
+Remember that most pages in this course can also be run interactively using the {fa}rocket icon above (read more about it [here](toolbox)).
 ```
 ````
 
