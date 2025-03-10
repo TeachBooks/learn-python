@@ -21,6 +21,7 @@ parts:
       - file: basics/hello.ipynb
         title: Your First Script
       - file: basics/variables.ipynb
+        title: Variables
       - file: basics/operators.ipynb
       - file: basics/functions.ipynb
       - file: basics/Exercises/01.ipynb
@@ -28,16 +29,17 @@ parts:
       title: Flow
       sections:
       - file: flow/conditions.ipynb
+        title: "Conditions: `if`"
       - file: flow/structures.ipynb
       - file: flow/loops.ipynb
       - file: flow/Exercises/01.ipynb
-    - file: advanced-techniques.md
-      title: Advanced Techniques
+    - file: beyond.md
+      title: Beyond the Basics
       sections:
-      - file: advanced-techniques/string.ipynb
-      - file: advanced-techniques/functions.ipynb
-      - file: advanced-techniques/files.ipynb
-      - file: advanced-techniques/Exercises/01.ipynb   
+      - file: beyond/strings.ipynb
+      - file: beyond/functions.ipynb
+      - file: beyond/files.ipynb
+      - file: beyond/Exercises/01.ipynb   
     - file: 04/Theory/01.ipynb
       sections:
       - file: 04/Exercises/01.ipynb
@@ -80,12 +82,12 @@ parts:
       sections:
       - file: flow/nutshell/conditions.ipynb
       - file: flow/nutshell/structures.ipynb
-    - file: advanced-techniques/nutshell.md
+    - file: beyond/nutshell.md
       title: Advanced Techniques
       sections:
-      - file: advanced-techniques/nutshell/strings.ipynb
-      - file: advanced-techniques/nutshell/functions.ipynb
-      - file: advanced-techniques/nutshell/files.ipynb
+      - file: beyond/nutshell/strings.ipynb
+      - file: beyond/nutshell/functions.ipynb
+      - file: beyond/nutshell/files.ipynb
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
