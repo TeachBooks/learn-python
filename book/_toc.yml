@@ -42,10 +42,13 @@ parts:
         title: Functions
       - file: beyond/files.ipynb
         title: Files
-      - file: beyond/Exercises/01.ipynb   
-    - file: 04/Theory/01.ipynb
+      - file: beyond/Exercises/01.ipynb  
+    - file: objects.md 
+      title: Objects and References
       sections:
-      - file: 04/Exercises/01.ipynb
+      - file: objects/object.ipynb
+        title: Objects and References
+      - file: objects/Exercises/01.ipynb
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
