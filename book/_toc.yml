@@ -49,6 +49,12 @@ parts:
       - file: objects/object.ipynb
         title: Objects and References
       - file: objects/Exercises/01.ipynb
+    - file: modules.md 
+      title: Modules
+      sections:
+      - file: module/modules.ipynb
+        title: Modules
+      - file: module/Exercises/01.ipynb
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
@@ -97,6 +103,16 @@ parts:
         title: Functions
       - file: beyond/nutshell/files.ipynb
         title: Files
+    - file: objects/nutshell.md
+      title: Objects and References
+      sections:
+      - file: objects/nutshell/object.ipynb
+        title: Objects and References
+    - file: module/nutshell.md
+      title: Modules
+      sections:
+      - file: module/nutshell/modules.ipynb
+        title: Modules
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
