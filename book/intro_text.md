@@ -1,12 +1,13 @@
+% The content of this page is included in two places: the home page of the book introduction.md (not listed in ToC), as well as in the Introduction Part of the book into.md (listed in ToC)
+
 Welcome to **Python for Engineers**. We're excited to have you join us in this self-paced online course, which is designed to improve your Python skills as well as your understanding of computer programming---especially for applications in engineering and the applied geosciences. Believe it or not, as long as you are using a modern internet browser, you can take complete this course without installing a single piece of extra software!
-<!-- Join us to automate tasks, analyze data, visualize information, and develop efficient algorithms. Embrace this opportunity to expand your horizons and unlock new possibilities in your academic and professional journey.  -->
 
 ```{admonition} What do we mean by "engineers"?
 :class: dropdown
 This course was originally developed for students in the fields of: Civil Engineering, Environmental Engineering, Applied Earth Sciences and Construction Management and Engineering. These programs are part of the faculty of Civil Engineering and Geosciences at Delft University of Technology in the Netherlands. We try to draw on examples from these fields, but the course contents should be relevant for any engineering or applied geoscience discipline.
 ```
 
-You will find this course especially helpful if you have learned programming in another language before or if you would just like to do a refresher course. If you have never taken a programming course and are completely new to programming, it may still be useful, but will also require some extra work. If you find the course difficult, we recommend you consider one of the many free online introduction to computer programming courses that uses the Python language (try searching on EdX or Udacity, for example, but note that we do not require you to pay for a certificate). The course material [Exploratory Computing with Python](https://mbakker7.github.io/exploratory_computing_with_python/) will illustrate pre-requisite topics, but, unlike EdX or Udacity, it is entirely self-study. As an additional study material for learning Python basics, we advise the open source book <a href="https://greenteapress.com/wp/think-python-2e/">"Think Python 2nd Edition" by Allen B. Downey</a>. It describes in more detail what is covered in this course.
+You will find this course especially helpful if you have learned programming in another language before or if you would just like to do a refresher course. If you have never taken a programming course and are completely new to programming, it may still be useful, but will also require some extra work. If you find the course difficult, we recommend you consider one of the many free online introduction to computer programming courses that uses the Python language (try searching on EdX or Udacity, for example). The course material [Exploratory Computing with Python](https://teachbooks.io/exploratory_computing_with_python/) is an excellent resource that provides a gentler introduction than this one, but, unlike EdX or Udacity, it is entirely self-study. Finally, as an additional study material for learning Python basics, we advise the open source book <a href="https://greenteapress.com/wp/think-python-2e/">"Think Python 2nd Edition" by Allen B. Downey</a>. It describes in more detail what is covered in this course.
 
 ```{admonition} Note to TU Delft Students (MSc programs)
 :class: dropdown
@@ -34,4 +35,10 @@ It's really quite simple: read through the 3 Chapters in the Introduction part, 
 
 ## Feedback and Corrections
 
-We appreciate help to identify mistakes in our course. Links will soon be posted here to help us fix them, as well as a short survey to see if you liked the course!
+We are always interested in improving this online book and appreciate help to identify mistakes, as well as general suggestions. The best way to do this is by using the buttons at the top right of each page which link directly to the GitHub repository where this website is hosted. In particular:
+- the "Suggest Edit" option allows you to make a correction or suggestion directly (as a Git "commit")
+- the "Issue" option allows you to report a general problem or suggest a new feature
+
+Note that you will need a GitHub account to do this. Once your edit or Issue is submitted, we will incorporate any changes into the book using a Pull Request, and you will be notified via GitHub when this is done.
+
+If this doesn't work for you, feel free to simply send an email to R.C.Lanzafame@tudelft.nl.
