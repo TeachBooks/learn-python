@@ -12,7 +12,7 @@ parts:
     - file: python.md
       title: Programming and Python
     - file: toolbox.md
-  - caption: Course Contents
+  - caption: "Part 1: Python Standard Library "
     numbered: true
     chapters:
     - file: basics.md
@@ -63,6 +63,9 @@ parts:
       - file: errors/raise_errors.ipynb
       - file: errors/handling_errors.ipynb
       - file: errors/asserts.ipynb
+  - caption: "Part 2: Other Libraries"
+    numbered: true
+    chapters:    
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
