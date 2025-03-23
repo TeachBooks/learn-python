@@ -55,6 +55,14 @@ parts:
       - file: module/modules.ipynb
         title: Modules
       - file: module/Exercises/01.ipynb
+    - file: errors/intro.md
+      title: Errors
+      sections:
+      - file: errors/error_types.ipynb
+      - file: errors/traceback.ipynb
+      - file: errors/raise_errors.ipynb
+      - file: errors/handling_errors.ipynb
+      - file: errors/asserts.ipynb
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
@@ -67,14 +75,6 @@ parts:
       - file: 07/Exercises/01.ipynb
     - file: 08/sympy
       title: 8. SymPy
-    - file: 09/intro.md
-      title: 9. Errors
-      sections:
-      - file: 09/error_types.ipynb
-      - file: 09/traceback.ipynb
-      - file: 09/raise_errors.ipynb
-      - file: 09/handling_errors.ipynb
-      - file: 09/asserts.ipynb
   - caption: End of course survey
     numbered: false
     chapters:
