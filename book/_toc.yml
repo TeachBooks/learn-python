@@ -72,6 +72,7 @@ parts:
       - file: numpy/introduction.ipynb
       - file: numpy/1d.ipynb
       - file: numpy/2d.ipynb
+        title: "Two-Dimensional arrays and matrices"
       - file: numpy/Exercises/01.ipynb
         title: "Exercise 1: Airplane velocity"
       - file: numpy/Exercises/02.ipynb
