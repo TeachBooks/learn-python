@@ -66,10 +66,16 @@ parts:
   - caption: "Part 2: Other Libraries"
     numbered: true
     chapters:    
-    - file: 05/Theory/01.ipynb
+    - file: numpy.md
+      title: Numpy
       sections:
-      - file: 05/Exercises/01.ipynb
-      - file: 05/Exercises/02.ipynb
+      - file: numpy/introduction.ipynb
+      - file: numpy/1d.ipynb
+      - file: numpy/2d.ipynb
+      - file: numpy/Exercises/01.ipynb
+        title: "Exercise 1: Airplane velocity"
+      - file: numpy/Exercises/02.ipynb
+        title: "Exercise 2: Bending Moment on Bridge"
     - file: 06/Theory/01.ipynb
       sections:
       - file: 06/Exercises/01.ipynb
@@ -116,7 +122,12 @@ parts:
       sections:
       - file: module/nutshell/modules.ipynb
         title: Modules
-    - file: 04/In_a_Nutshell/01.ipynb
+    - file: numpy/nutshell.md
+      title: Numpy
+      sections:
+      - file: numpy/nutshell/numpy.ipynb
+        title: Numpy
+    - file: numpy/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
     - file: 07/In_a_Nutshell/01.ipynb
