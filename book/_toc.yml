@@ -16,7 +16,7 @@ parts:
     numbered: true
     chapters:
     - file: basics.md
-      title: Beyond the Basics
+      title: Basics
       sections:
       - file: basics/hello.ipynb
         title: Your First Script
