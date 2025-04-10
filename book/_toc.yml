@@ -52,9 +52,9 @@ parts:
     - file: modules.md 
       title: Modules
       sections:
-      - file: module/modules.ipynb
+      - file: modules/modules.ipynb
         title: Modules
-      - file: module/Exercises/01.ipynb
+      - file: modules/Exercises/01.ipynb
     - file: errors/intro.md
       title: Errors
       sections:
@@ -118,10 +118,10 @@ parts:
       sections:
       - file: objects/nutshell/object.ipynb
         title: Objects and References
-    - file: module/nutshell.md
+    - file: modules/nutshell.md
       title: Modules
       sections:
-      - file: module/nutshell/modules.ipynb
+      - file: modules/nutshell/modules.ipynb
         title: Modules
     - file: numpy/nutshell.md
       title: Numpy
