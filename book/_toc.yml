@@ -12,11 +12,11 @@ parts:
     - file: python.md
       title: Programming and Python
     - file: toolbox.md
-  - caption: Course Contents
+  - caption: "Part 1: Python Standard Library "
     numbered: true
     chapters:
     - file: basics.md
-      title: Beyond the Basics
+      title: Basics
       sections:
       - file: basics/hello.ipynb
         title: Your First Script
@@ -55,10 +55,28 @@ parts:
       - file: modules/modules.ipynb
         title: Modules
       - file: modules/Exercises/01.ipynb
-    - file: 05/Theory/01.ipynb
+    - file: errors/intro.md
+      title: Errors
       sections:
-      - file: 05/Exercises/01.ipynb
-      - file: 05/Exercises/02.ipynb
+      - file: errors/error_types.ipynb
+      - file: errors/traceback.ipynb
+      - file: errors/raise_errors.ipynb
+      - file: errors/handling_errors.ipynb
+      - file: errors/asserts.ipynb
+  - caption: "Part 2: Other Libraries"
+    numbered: true
+    chapters:    
+    - file: numpy.md
+      title: Numpy
+      sections:
+      - file: numpy/introduction.ipynb
+      - file: numpy/1d.ipynb
+      - file: numpy/2d.ipynb
+        title: "Two-Dimensional arrays and matrices"
+      - file: numpy/Exercises/01.ipynb
+        title: "Exercise 1: Airplane velocity"
+      - file: numpy/Exercises/02.ipynb
+        title: "Exercise 2: Bending Moment on Bridge"
     - file: 06/Theory/01.ipynb
       sections:
       - file: 06/Exercises/01.ipynb
@@ -67,14 +85,6 @@ parts:
       - file: 07/Exercises/01.ipynb
     - file: 08/sympy
       title: 8. SymPy
-    - file: 09/intro.md
-      title: 9. Errors
-      sections:
-      - file: 09/error_types.ipynb
-      - file: 09/traceback.ipynb
-      - file: 09/raise_errors.ipynb
-      - file: 09/handling_errors.ipynb
-      - file: 09/asserts.ipynb
   - caption: End of course survey
     numbered: false
     chapters:
@@ -113,7 +123,12 @@ parts:
       sections:
       - file: modules/nutshell/modules.ipynb
         title: Modules
-    - file: 04/In_a_Nutshell/01.ipynb
+    - file: numpy/nutshell.md
+      title: Numpy
+      sections:
+      - file: numpy/nutshell/numpy.ipynb
+        title: Numpy
+    - file: numpy/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
     - file: 07/In_a_Nutshell/01.ipynb
