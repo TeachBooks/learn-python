@@ -52,9 +52,9 @@ parts:
     - file: modules.md 
       title: Modules
       sections:
-      - file: module/modules.ipynb
+      - file: modules/modules.ipynb
         title: Modules
-      - file: module/Exercises/01.ipynb
+      - file: modules/Exercises/01.ipynb
     - file: 05/Theory/01.ipynb
       sections:
       - file: 05/Exercises/01.ipynb
@@ -108,10 +108,10 @@ parts:
       sections:
       - file: objects/nutshell/object.ipynb
         title: Objects and References
-    - file: module/nutshell.md
+    - file: modules/nutshell.md
       title: Modules
       sections:
-      - file: module/nutshell/modules.ipynb
+      - file: modules/nutshell/modules.ipynb
         title: Modules
     - file: 04/In_a_Nutshell/01.ipynb
     - file: 05/In_a_Nutshell/01.ipynb
