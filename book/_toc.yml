@@ -107,15 +107,21 @@ parts:
       - file: matplotlib/subplots.ipynb
         title: "Subplots"
       - file: matplotlib/Exercises/01.ipynb
-    - file: 07/Theory/01.ipynb
+    - file: sympy/intro.md
+      title: SymPy
       sections:
-      - file: 07/Exercises/01.ipynb
-    - file: 08/sympy
-      title: 8. SymPy
+      - file: sympy/introduction.ipynb
+        title: "Introduction"
+      - file: sympy/variables.ipynb
+        title: "Variables, Expressions and Functions"
+      - file: sympy/expressions.ipynb
+        title: "Evaluating Expressions"
+
   - caption: End of course survey
     numbered: false
     chapters:
     - file: End-of-course-survey.md
+  
   - caption: In a Nutshell
     numbered: 2
     chapters:
