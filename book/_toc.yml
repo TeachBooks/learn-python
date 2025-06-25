@@ -91,6 +91,22 @@ parts:
       - file: pandas/statistics.ipynb
         title: "Panda Statistics"
       - file: pandas/Exercises/01.ipynb
+    - file: matplotlib/intro.md
+      title: Matplotlib
+      sections:
+      - file: matplotlib/introduction.ipynb
+        title: "Introduction"
+      - file: matplotlib/simple-plot.ipynb
+        title: "Simple Plot"
+      - file: matplotlib/customize.ipynb
+        title: "Customizing Plot"
+      - file: matplotlib/scatter.ipynb
+        title: "Scatter Plot"
+      - file: matplotlib/histograms.ipynb
+        title: "Histograms"
+      - file: matplotlib/subplots.ipynb
+        title: "Subplots"
+      - file: matplotlib/Exercises/01.ipynb
     - file: 07/Theory/01.ipynb
       sections:
       - file: 07/Exercises/01.ipynb
@@ -146,4 +162,8 @@ parts:
       - file: pandas/nutshell/series.ipynb
       - file: pandas/nutshell/frame.ipynb
       - file: pandas/nutshell/attributes.ipynb
-
+    - file: matplotlib/nutshell.md
+      title: Matplotlib
+      sections:
+      - file: matplotlib/nutshell/object.ipynb
+        title: Matplotlib
