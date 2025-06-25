@@ -77,9 +77,20 @@ parts:
         title: "Exercise 1: Airplane velocity"
       - file: numpy/Exercises/02.ipynb
         title: "Exercise 2: Bending Moment on Bridge"
-    - file: 06/Theory/01.ipynb
+    - file: pandas/intro.md
+      title: Pandas
       sections:
-      - file: 06/Exercises/01.ipynb
+      - file: pandas/introduction.ipynb
+        title: "Introduction"
+      - file: pandas/series.ipynb
+        title: "Pandas Series"
+      - file: pandas/frame.ipynb
+        title: "Panda DataFrame"
+      - file: pandas/attributes.ipynb
+        title: "Data Importing and Attributes"
+      - file: pandas/statistics.ipynb
+        title: "Panda Statistics"
+      - file: pandas/Exercises/01.ipynb
     - file: 07/Theory/01.ipynb
       sections:
       - file: 07/Exercises/01.ipynb
@@ -128,7 +139,14 @@ parts:
       sections:
       - file: numpy/nutshell/numpy.ipynb
         title: Numpy
-    - file: numpy/In_a_Nutshell/01.ipynb
+    - file: pandas/nutshell.md
+      title: Pandas
+      sections:
+      - file: pandas/nutshell/introduction.ipynb
+      - file: pandas/nutshell/series.ipynb
+      - file: pandas/nutshell/frame.ipynb
+      - file: pandas/nutshell/attributes.ipynb
+    - file: flow/nutshell.md
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
     - file: 07/In_a_Nutshell/01.ipynb
