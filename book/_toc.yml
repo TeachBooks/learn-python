@@ -15,7 +15,7 @@ parts:
   - caption: "Part 1: Python Standard Library "
     numbered: true
     chapters:
-    - file: basics.md
+    - file: basics/intro.md
       title: Basics
       sections:
       - file: basics/hello.ipynb
@@ -25,7 +25,7 @@ parts:
       - file: basics/operators.ipynb
       - file: basics/functions.ipynb
       - file: basics/Exercises/01.ipynb
-    - file: flow.md
+    - file: flow/intro.md
       title: Flow
       sections:
       - file: flow/conditions.ipynb
@@ -33,7 +33,7 @@ parts:
       - file: flow/structures.ipynb
       - file: flow/loops.ipynb
       - file: flow/Exercises/01.ipynb
-    - file: beyond.md
+    - file: beyond/intro.md
       title: Beyond the Basics
       sections:
       - file: beyond/strings.ipynb
@@ -43,13 +43,13 @@ parts:
       - file: beyond/files.ipynb
         title: Files
       - file: beyond/Exercises/01.ipynb  
-    - file: objects.md 
+    - file: objects/intro.md 
       title: Objects and References
       sections:
       - file: objects/object.ipynb
         title: Objects and References
       - file: objects/Exercises/01.ipynb
-    - file: modules.md 
+    - file: modules/intro.md 
       title: Modules
       sections:
       - file: modules/modules.ipynb
@@ -66,7 +66,7 @@ parts:
   - caption: "Part 2: Other Libraries"
     numbered: true
     chapters:    
-    - file: numpy.md
+    - file: numpy/intro.md
       title: Numpy
       sections:
       - file: numpy/introduction.ipynb
