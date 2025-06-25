@@ -146,7 +146,4 @@ parts:
       - file: pandas/nutshell/series.ipynb
       - file: pandas/nutshell/frame.ipynb
       - file: pandas/nutshell/attributes.ipynb
-    - file: flow/nutshell.md
-    - file: 05/In_a_Nutshell/01.ipynb
-    - file: 06/In_a_Nutshell/01.ipynb
-    - file: 07/In_a_Nutshell/01.ipynb
+
