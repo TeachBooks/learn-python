@@ -113,7 +113,9 @@ parts:
       - file: sympy/introduction.ipynb
         title: "Introduction"
       - file: sympy/variables.ipynb
-        title: "Variables, Expressions and Functions"
+        title: "Variables"
+      - file: sympy/functions.ipynb
+        title: "Functions"
       - file: sympy/expressions.ipynb
         title: "Evaluating Expressions"
 
