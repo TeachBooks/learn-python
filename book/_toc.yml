@@ -171,5 +171,5 @@ parts:
     - file: matplotlib/nutshell.md
       title: Matplotlib
       sections:
-      - file: matplotlib/nutshell.ipynb
+      - file: matplotlib/nutshell/nutshell.ipynb
         title: Matplotlib
