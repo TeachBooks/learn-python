@@ -69,7 +69,6 @@ parts:
     - file: numpy/intro.md
       title: Numpy
       sections:
-      - file: numpy/introduction.ipynb
       - file: numpy/1d.ipynb
       - file: numpy/2d.ipynb
         title: "Two-Dimensional arrays and matrices"
