@@ -128,7 +128,7 @@ parts:
     chapters:
     - caption: "Part 1: Python Standard Library"
       numbered: true
-      chapters:
+      sections:
       - file: basics/nutshell.md
         title: Basics
         sections:
