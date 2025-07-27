@@ -8,7 +8,12 @@ SymPy is a Python library for symbolic mathematics. You can use it as a tool to 
 
 For example, SymPy is able to solve the differential equation $y'' - y = e^t$ for you!
 
-<pre lang="markdown"> ```python import sympy as sym y = sym.Function('y') t = sym.symbols('t') sym.dsolve(sym.Eq(y(t).diff(t, t) - y(t), sym.exp(t)), y(t)) ``` </pre>
+```python
+import sympy as sym
+y = sym.Function('y')
+t = sym.symbols('t')
+sym.dsolve(sym.Eq(y(t).diff(t, t) - y(t), sym.exp(t)), y(t))
+```
 
 
 On this page, you'll get an introduction of the SymPy-basics. This introduction is derived from the introduction into SymPy from Jason Moore (CC-BY licensed) {cite}`jason_moore` and the SymPy Tutorial (Copyright (c) 2006-2023 SymPy Development Team) {cite}`sympy_why`.
