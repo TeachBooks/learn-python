@@ -105,8 +105,8 @@ parts:
     - file: sympy/intro.md
       title: SymPy
       sections:
-      - file: sympy/introduction.ipynb
-        title: "Introduction"
+      - file: sympy/first-step.ipynb
+        title: "First Step"
       - file: sympy/variables.ipynb
         title: "Variables"
       - file: sympy/functions.ipynb
