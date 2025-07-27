@@ -118,11 +118,6 @@ parts:
         title: "Functions"
       - file: sympy/expressions.ipynb
         title: "Evaluating Expressions"
-
-  - caption: End of course survey
-    numbered: false
-    chapters:
-    - file: End-of-course-survey.md
   
   - caption: "In a Nutshell: Part 1 - Python Standard Library"
     numbered: true
@@ -173,3 +168,8 @@ parts:
         sections:
           - file: matplotlib/nutshell/nutshell.ipynb
             title: Matplotlib
+
+  - caption: End of course survey
+    numbered: false
+    chapters:
+    - file: End-of-course-survey.md
