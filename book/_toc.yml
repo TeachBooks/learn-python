@@ -91,8 +91,6 @@ parts:
     - file: matplotlib/intro.md
       title: Matplotlib
       sections:
-      - file: matplotlib/introduction.ipynb
-        title: "Introduction"
       - file: matplotlib/simple-plot.ipynb
         title: "Simple Plot"
       - file: matplotlib/customize.ipynb
