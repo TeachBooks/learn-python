@@ -124,59 +124,52 @@ parts:
     chapters:
     - file: End-of-course-survey.md
   
-  - caption: In a Nutshell
+  - caption: "In a Nutshell: Part 1 - Python Standard Library"
+    numbered: true
     chapters:
-    - caption: "Part 1: Python Standard Library"
-      numbered: true
-      sections:
       - file: basics/nutshell.md
         title: Basics
         sections:
-        - file: basics/nutshell/hello.ipynb
-        - file: basics/nutshell/variables.ipynb
-        - file: basics/nutshell/operators.ipynb
-        - file: basics/nutshell/functions.ipynb
+          - file: basics/nutshell/hello.ipynb
+          - file: basics/nutshell/variables.ipynb
+          - file: basics/nutshell/operators.ipynb
+          - file: basics/nutshell/functions.ipynb
       - file: flow/nutshell.md
         title: Flow
         sections:
-        - file: flow/nutshell/conditions.ipynb
-        - file: flow/nutshell/structures.ipynb
+          - file: flow/nutshell/conditions.ipynb
+          - file: flow/nutshell/structures.ipynb
       - file: beyond/nutshell.md
         title: Beyond the Basics
         sections:
-        - file: beyond/nutshell/strings.ipynb
-          title: Strings
-        - file: beyond/nutshell/functions.ipynb
-          title: Functions
-        - file: beyond/nutshell/files.ipynb
-          title: Files
+          - file: beyond/nutshell/strings.ipynb
+          - file: beyond/nutshell/functions.ipynb
+          - file: beyond/nutshell/files.ipynb
       - file: objects/nutshell.md
         title: Objects and References
         sections:
-        - file: objects/nutshell/object.ipynb
-          title: Objects and References
+          - file: objects/nutshell/object.ipynb
       - file: modules/nutshell.md
         title: Modules
         sections:
-        - file: modules/nutshell/modules.ipynb
-          title: Modules
+          - file: modules/nutshell/modules.ipynb
 
-    - caption: "Part 2: Other Libraries"
-      chapters:
+  - caption: "In a Nutshell: Part 2 - Other Libraries"
+    numbered: true
+    chapters:
       - file: numpy/nutshell.md
         title: Numpy
         sections:
-        - file: numpy/nutshell/numpy.ipynb
-          title: Numpy
+          - file: numpy/nutshell/numpy.ipynb
       - file: pandas/nutshell.md
         title: Pandas
         sections:
-        - file: pandas/nutshell/introduction.ipynb
-        - file: pandas/nutshell/series.ipynb
-        - file: pandas/nutshell/frame.ipynb
-        - file: pandas/nutshell/attributes.ipynb
+          - file: pandas/nutshell/introduction.ipynb
+          - file: pandas/nutshell/series.ipynb
+          - file: pandas/nutshell/frame.ipynb
+          - file: pandas/nutshell/attributes.ipynb
       - file: matplotlib/nutshell.md
         title: Matplotlib
         sections:
-        - file: matplotlib/nutshell/nutshell.ipynb
-          title: Matplotlib
+          - file: matplotlib/nutshell/nutshell.ipynb
+            title: Matplotlib
