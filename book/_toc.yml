@@ -79,8 +79,6 @@ parts:
     - file: pandas/intro.md
       title: Pandas
       sections:
-      - file: pandas/introduction.ipynb
-        title: "Introduction"
       - file: pandas/series.ipynb
         title: "Pandas Series"
       - file: pandas/frame.ipynb
