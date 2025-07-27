@@ -154,7 +154,7 @@ parts:
         title: Objects and References
         sections:
         - file: objects/nutshell/object.ipynb
-          title: Objects and References.ipynb
+          title: Objects and References
       - file: modules/nutshell.md
         title: Modules
         sections:
