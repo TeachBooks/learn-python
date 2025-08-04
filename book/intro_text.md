@@ -27,7 +27,7 @@ For all students in the CEG faculty: if you have *never* taken a university-leve
 
 ## Course overview
 
-This online course is divided into 7 Chapters, each of which contains at least two sections: Theory and Exercises. In some cases there is more than one Exercise section (and more will likely be added over time). Depending on your prior programming skills, each Chapter is expected to take you 2–5 hours on average. Don’t worry if some concepts are not completely clear to you; the main goal is that you begin familiar with the material through repetition, since you can always go back once you need it for your follow-up programming tasks.
+This online course is divided into a number of Chapters, each of which contains at least two sections: Theory and Exercises. In some cases there is more than one Exercise section (and more will likely be added over time). Depending on your prior programming skills, each Chapter is expected to take you 2–5 hours on average. Don’t worry if some concepts are not completely clear to you; the main goal is that you begin familiar with the material through repetition, since you can always go back once you need it for your follow-up programming tasks. Note that the chapters have been separated into two parts: those that conver concepts using only the standard Python library and those that focus on other libraries (but still using the Python programming language, of course).
 
 ## How to take the course
 
@@ -41,4 +41,6 @@ We are always interested in improving this online book and appreciate help to id
 
 Note that you will need a GitHub account to do this. Once your edit or Issue is submitted, we will incorporate any changes into the book using a Pull Request, and you will be notified via GitHub when this is done.
 
-If this doesn't work for you, feel free to simply send an email to R.C.Lanzafame@tudelft.nl.
+If this doesn't work for you, feel free to simply send an email to MUDE-CEG@tudelft.nl.
+
+There is also a Survey at the bottom end of the course, and we would greatly appreciate it if you could give us feedback by filling it out.
