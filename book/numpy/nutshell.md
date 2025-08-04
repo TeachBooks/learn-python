@@ -1,7 +1,6 @@
 # Numpy: in a Nutshell
 
-```{admonition}
-class: tip
+```{tip}
 
 This is an "In a Nutshell" chapter: it contains simplified, condensed versions of other pages. It is meant to be used as a quick reference or study refresher for the key concepts, commands and code introduced in the chapter.
 
