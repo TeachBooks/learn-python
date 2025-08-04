@@ -167,7 +167,8 @@ parts:
           - file: matplotlib/nutshell/nutshell.ipynb
             title: Matplotlib
 
-  - caption: End of course survey
+  - caption: Closing
     numbered: false
     chapters:
     - file: End-of-course-survey.md
+    - file: credits.md
