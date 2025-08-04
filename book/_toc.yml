@@ -133,8 +133,11 @@ parts:
         title: Beyond the Basics
         sections:
           - file: beyond/nutshell/strings.ipynb
+            title: Strings
           - file: beyond/nutshell/functions.ipynb
+            title: Functions
           - file: beyond/nutshell/files.ipynb
+            title: Files
       - file: objects/nutshell.md
         title: Objects and References
         sections:
