@@ -46,7 +46,7 @@ parts:
     - file: objects/intro.md 
       title: Objects and References
       sections:
-      - file: objects/object.ipynb
+      - file: objects/objects.ipynb
         title: Objects and References
       - file: objects/Exercises/01.ipynb
     - file: modules/intro.md 
