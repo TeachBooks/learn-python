@@ -9,6 +9,8 @@ This course was originally developed for students in the fields of: Civil Engine
 
 You will find this course especially helpful if you have learned programming in another language before or if you would just like to do a refresher course. If you have never taken a programming course and are completely new to programming, it may still be useful, but will also require some extra work. If you find the course difficult, we recommend you consider one of the many free online introduction to computer programming courses that uses the Python language (try searching on EdX or Udacity, for example). The course material [Exploratory Computing with Python](https://teachbooks.io/exploratory_computing_with_python/) is an excellent resource that provides a gentler introduction than this one, but, unlike EdX or Udacity, it is entirely self-study. Finally, as an additional study material for learning Python basics, we advise the open source book <a href="https://greenteapress.com/wp/think-python-2e/">"Think Python 2nd Edition" by Allen B. Downey</a>. It describes in more detail what is covered in this course.
 
+In fact, this book draws heavily on the content of ["Think Python 2nd Edition" by Allen B. Downey](https://greenteapress.com/wp/think-python-2e/), which is generously provided with a CC BY NC 3.0 Unported license, allowing us to create this Python resource that is customized for our own students.
+
 ```{admonition} Note to TU Delft Students (MSc programs)
 :class: dropdown
 The specific MSc programs at TU Delft that this course is designed for include:
@@ -27,7 +29,7 @@ For all students in the CEG faculty: if you have *never* taken a university-leve
 
 ## Course overview
 
-This online course is divided into 7 Chapters, each of which contains at least two sections: Theory and Exercises. In some cases there is more than one Exercise section (and more will likely be added over time). Depending on your prior programming skills, each Chapter is expected to take you 2–5 hours on average. Don’t worry if some concepts are not completely clear to you; the main goal is that you begin familiar with the material through repetition, since you can always go back once you need it for your follow-up programming tasks.
+This online course is divided into a number of Chapters, each of which contains at least two sections: Theory and Exercises. In some cases there is more than one Exercise section (and more will likely be added over time). Depending on your prior programming skills, each Chapter is expected to take you 2–5 hours on average. Don’t worry if some concepts are not completely clear to you; the main goal is that you begin familiar with the material through repetition, since you can always go back once you need it for your follow-up programming tasks. Note that the chapters have been separated into two parts: those that conver concepts using only the standard Python library and those that focus on other libraries (but still using the Python programming language, of course).
 
 ## How to take the course
 
@@ -41,4 +43,6 @@ We are always interested in improving this online book and appreciate help to id
 
 Note that you will need a GitHub account to do this. Once your edit or Issue is submitted, we will incorporate any changes into the book using a Pull Request, and you will be notified via GitHub when this is done.
 
-If this doesn't work for you, feel free to simply send an email to R.C.Lanzafame@tudelft.nl.
+If this doesn't work for you, feel free to simply send an email to MUDE-CEG@tudelft.nl.
+
+There is also a Survey at the bottom end of the course, and we would greatly appreciate it if you could give us feedback by filling it out.

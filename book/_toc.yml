@@ -5,55 +5,170 @@ format: jb-book
 root: introduction.md
 parts:
   - caption: Introduction
+    numbered: false
     chapters:
     - file: intro.md
       title: Course Overview
-    - file: Python_intro.md
+    - file: python.md
       title: Programming and Python
-    - file: Python_Toolbox.md
-  - caption: Course Contents
+    - file: toolbox.md
+  - caption: "Part 1: Python Standard Library "
+    numbered: true
     chapters:
-    - file: 01/Theory/01.ipynb
+    - file: basics/intro.md
+      title: Basics
       sections:
-      - file: 01/Exercises/01.ipynb
-    - file: 02/Theory/01.ipynb
+      - file: basics/hello.ipynb
+        title: Your First Script
+      - file: basics/variables.ipynb
+        title: Variables
+      - file: basics/operators.ipynb
+      - file: basics/functions.ipynb
+      - file: basics/Exercises/01.ipynb
+    - file: flow/intro.md
+      title: Flow
       sections:
-      - file: 02/Exercises/01.ipynb
-    - file: 03/Theory/01.ipynb
+      - file: flow/conditions.ipynb
+        title: "Conditions: `if`"
+      - file: flow/structures.ipynb
+      - file: flow/loops.ipynb
+      - file: flow/Exercises/01.ipynb
+    - file: beyond/intro.md
+      title: Beyond the Basics
       sections:
-      - file: 03/Exercises/01.ipynb      
-    - file: 04/Theory/01.ipynb
+      - file: beyond/strings.ipynb
+        title: Strings
+      - file: beyond/functions.ipynb
+        title: Functions
+      - file: beyond/files.ipynb
+        title: Files
+      - file: beyond/Exercises/01.ipynb  
+    - file: objects/intro.md 
+      title: Objects and References
       sections:
-      - file: 04/Exercises/01.ipynb
-    - file: 05/Theory/01.ipynb
+      - file: objects/objects.ipynb
+        title: Objects and References
+      - file: objects/Exercises/01.ipynb
+    - file: modules/intro.md 
+      title: Modules
       sections:
-      - file: 05/Exercises/01.ipynb
-      - file: 05/Exercises/02.ipynb
-    - file: 06/Theory/01.ipynb
+      - file: modules/modules.ipynb
+        title: Modules
+      - file: modules/Exercises/01.ipynb
+    - file: errors/intro.md
+      title: Errors
       sections:
-      - file: 06/Exercises/01.ipynb
-    - file: 07/Theory/01.ipynb
+      - file: errors/error_types.ipynb
+      - file: errors/traceback.ipynb
+      - file: errors/raise_errors.ipynb
+      - file: errors/handling_errors.ipynb
+      - file: errors/asserts.ipynb
+  - caption: "Part 2: Other Libraries"
+    numbered: true
+    chapters:    
+    - file: numpy/intro.md
+      title: Numpy
       sections:
-      - file: 07/Exercises/01.ipynb
-    - file: 08/sympy
-      title: 8. SymPy
-    - file: 09/intro.md
-      title: 9. Errors
+      - file: numpy/1d.ipynb
+      - file: numpy/2d.ipynb
+        title: "Two-Dimensional arrays and matrices"
+      - file: numpy/Exercises/01.ipynb
+        title: "Exercise 1: Airplane velocity"
+      - file: numpy/Exercises/02.ipynb
+        title: "Exercise 2: Bending Moment on Bridge"
+    - file: pandas/intro.md
+      title: Pandas
       sections:
-      - file: 09/error_types.ipynb
-      - file: 09/traceback.ipynb
-      - file: 09/raise_errors.ipynb
-      - file: 09/handling_errors.ipynb
-      - file: 09/asserts.ipynb
-  - caption: End of course survey
+      - file: pandas/series.ipynb
+        title: "Pandas Series"
+      - file: pandas/frame.ipynb
+        title: "Panda DataFrame"
+      - file: pandas/attributes.ipynb
+        title: "Data Importing and Attributes"
+      - file: pandas/statistics.ipynb
+        title: "Panda Statistics"
+      - file: pandas/Exercises/01.ipynb
+    - file: matplotlib/intro.md
+      title: Matplotlib
+      sections:
+      - file: matplotlib/simple-plot.ipynb
+        title: "Simple Plot"
+      - file: matplotlib/customize.ipynb
+        title: "Customizing Plot"
+      - file: matplotlib/scatter.ipynb
+        title: "Scatter Plot"
+      - file: matplotlib/histograms.ipynb
+        title: "Histograms"
+      - file: matplotlib/subplots.ipynb
+        title: "Subplots"
+      - file: matplotlib/Exercises/01.ipynb
+    - file: sympy/intro.md
+      title: SymPy
+      sections:
+      - file: sympy/first-step.ipynb
+        title: "First Step"
+      - file: sympy/variables.ipynb
+        title: "Variables"
+      - file: sympy/functions.ipynb
+        title: "Functions"
+      - file: sympy/expressions.ipynb
+        title: "Evaluating Expressions"
+  
+  - caption: "In a Nutshell: Part 1 - Python Standard Library"
+    numbered: true
+    chapters:
+      - file: basics/nutshell.md
+        title: Basics
+        sections:
+          - file: basics/nutshell/hello.ipynb
+          - file: basics/nutshell/variables.ipynb
+          - file: basics/nutshell/operators.ipynb
+          - file: basics/nutshell/functions.ipynb
+      - file: flow/nutshell.md
+        title: Flow
+        sections:
+          - file: flow/nutshell/conditions.ipynb
+          - file: flow/nutshell/structures.ipynb
+      - file: beyond/nutshell.md
+        title: Beyond the Basics
+        sections:
+          - file: beyond/nutshell/strings.ipynb
+            title: Strings
+          - file: beyond/nutshell/functions.ipynb
+            title: Functions
+          - file: beyond/nutshell/files.ipynb
+            title: Files
+      - file: objects/nutshell.md
+        title: Objects and References
+        sections:
+          - file: objects/nutshell/object.ipynb
+      - file: modules/nutshell.md
+        title: Modules
+        sections:
+          - file: modules/nutshell/modules.ipynb
+
+  - caption: "In a Nutshell: Part 2 - Other Libraries"
+    numbered: true
+    chapters:
+      - file: numpy/nutshell.md
+        title: Numpy
+        sections:
+          - file: numpy/nutshell/numpy.ipynb
+      - file: pandas/nutshell.md
+        title: Pandas
+        sections:
+          - file: pandas/nutshell/introduction.ipynb
+          - file: pandas/nutshell/series.ipynb
+          - file: pandas/nutshell/frame.ipynb
+          - file: pandas/nutshell/attributes.ipynb
+      - file: matplotlib/nutshell.md
+        title: Matplotlib
+        sections:
+          - file: matplotlib/nutshell/nutshell.ipynb
+            title: Matplotlib
+
+  - caption: Closing
+    numbered: false
     chapters:
     - file: End-of-course-survey.md
-  - caption: In a Nutshell
-    chapters:
-    - file: 01/In_a_Nutshell/01.ipynb
-    - file: 02/In_a_Nutshell/01.ipynb
-    - file: 03/In_a_Nutshell/01.ipynb
-    - file: 04/In_a_Nutshell/01.ipynb
-    - file: 05/In_a_Nutshell/01.ipynb
-    - file: 06/In_a_Nutshell/01.ipynb
-    - file: 07/In_a_Nutshell/01.ipynb
+    - file: credits.md
