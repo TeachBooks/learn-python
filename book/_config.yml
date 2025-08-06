@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/TeachBooks/learn-python # Online location of your book
+  url: https://github.com/TUDelft/learn-python # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -36,7 +36,7 @@ html:
   use_repository_button: true
   use_edit_page_button: true
   use_multitoc_numbering: false
-  announcement: "<p>This book was recently updated for the 2025-26 academic year. The previous version of the book can be found at <a href='https://teachbooks.io/learn-python/2024' style='color: cyan;'>teachbooks.io/learn-python/2024</a></p>"
+  announcement: "<p>This book was recently updated for the 2025-26 academic year. The previous version of the book can be found at <a href='https://oit.tudelft.nl/learn-python/2024' style='color: cyan;'>oit.tudelft.nl/learn-python/2024</a></p>"
   extra_navbar: |
       <div>
           <IMG SRC="https://raw.githubusercontent.com/mbakker7/exploratory_computing_with_python/master/tudelft_logo.png" WIDTH=200 ALIGN="center">

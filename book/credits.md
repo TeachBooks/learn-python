@@ -9,7 +9,7 @@ Note that this book draws heavily on the content of ["Think Python 2nd Edition" 
 
 ## How the book is made
 
-This book is created using open source tools: it is a Jupyter Book that uses a number of features from [TeachBooks](https://teachbooks.io/) and is written using Markdown, Jupyter notebooks and Python files to generate some figures. The source files are stored on a public GitHub repository [github.com/teachbooks/learn-python](https://github.com/teachbooks/learn-python). Zenodo is used to archive all open versions of the book (beginning with the 2025-26 academic year) and to provide a DOI ([10.5281/zenodo.xxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxx)).  View the repository README file or contact the editors for additional and up-to-date information.
+This book is created using open source tools: it is a Jupyter Book that uses a number of features from [TeachBooks](https://teachbooks.io/) and is written using Markdown, Jupyter notebooks and Python files to generate some figures. The source files are stored on a public GitHub repository [github.com/TUDelft-books/learn-python](https://github.com/TUDelft-books/learn-python). Zenodo is used to archive all open versions of the book (beginning with the 2025-26 academic year) and to provide a DOI ([10.5281/zenodo.xxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxx)).  View the repository README file or contact the editors for additional and up-to-date information.
 
 ## Acknowledgements
 
