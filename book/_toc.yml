@@ -45,9 +45,6 @@ parts:
       - file: 09/raise_errors.ipynb
       - file: 09/handling_errors.ipynb
       - file: 09/asserts.ipynb
-  - caption: End of course survey
-    chapters:
-    - file: End-of-course-survey.md
   - caption: In a Nutshell
     chapters:
     - file: 01/In_a_Nutshell/01.ipynb
@@ -57,3 +54,7 @@ parts:
     - file: 05/In_a_Nutshell/01.ipynb
     - file: 06/In_a_Nutshell/01.ipynb
     - file: 07/In_a_Nutshell/01.ipynb
+  - caption: Closing
+    chapters:
+    - file: End-of-course-survey.md
+    - file: credits.md

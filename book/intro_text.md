@@ -9,6 +9,8 @@ This course was originally developed for students in the fields of: Civil Engine
 
 You will find this course especially helpful if you have learned programming in another language before or if you would just like to do a refresher course. If you have never taken a programming course and are completely new to programming, it may still be useful, but will also require some extra work. If you find the course difficult, we recommend you consider one of the many free online introduction to computer programming courses that uses the Python language (try searching on EdX or Udacity, for example). The course material [Exploratory Computing with Python](https://teachbooks.io/exploratory_computing_with_python/) is an excellent resource that provides a gentler introduction than this one, but, unlike EdX or Udacity, it is entirely self-study. Finally, as an additional study material for learning Python basics, we advise the open source book <a href="https://greenteapress.com/wp/think-python-2e/">"Think Python 2nd Edition" by Allen B. Downey</a>. It describes in more detail what is covered in this course.
 
+In fact, this book draws heavily on the content of ["Think Python 2nd Edition" by Allen B. Downey](https://greenteapress.com/wp/think-python-2e/), which is generously provided with a CC BY NC 3.0 Unported license, allowing us to create this Python resource that is customized for our own students.
+
 ```{admonition} Note to TU Delft Students (MSc programs)
 :class: dropdown
 The specific MSc programs at TU Delft that this course is designed for include:
@@ -41,4 +43,6 @@ We are always interested in improving this online book and appreciate help to id
 
 Note that you will need a GitHub account to do this. Once your edit or Issue is submitted, we will incorporate any changes into the book using a Pull Request, and you will be notified via GitHub when this is done.
 
-If this doesn't work for you, feel free to simply send an email to R.C.Lanzafame@tudelft.nl.
+If this doesn't work for you, feel free to simply send an email to MUDE-CEG@tudelft.nl.
+
+There is also a Survey at the bottom end of the course, and we would greatly appreciate it if you could give us feedback by filling it out.
