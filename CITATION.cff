@@ -4,15 +4,21 @@
 cff-version: 1.2.0
 title: >-
   Python for Engineers
+message: >-
+  This record preserves the source code and website files
+  and is updated automatically by Zenodo for each Release.
+  See the README of the repository or the Credits page of
+  the book for additional information. Updates to the book
+  are described in the Release Notes of the repository.
+  
+  Note the citation listed on the Zenodo page is incorrect
+  (see the Credits page of the book).
 type: software
 authors:
   - given-names: Robert
     family-names: Lanzafame
   - given-names: Sandra
     family-names: Verhagen
-  - given-names: Tom
-    family-names: Woudenberg
-    name-particle: van
   - given-names: Guilherme Ferreira Sêco
     family-names: Alvarenga
     name-particle: de
@@ -22,11 +28,24 @@ authors:
     family-names: Mendoza Lugo
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.xxxxxxx
-    description: Zenodo DOI for the book and source code
+    value: 10.5281/zenodo.16753127
+    description: Zenodo DOI
 repository-code: 'https://github.com/TUDelft-books/learn-python'
 abstract: >-
-  This repository contains the source code for Python for Engineers, a self-paced online course, which is meant to be a way to provide (and refresh) knowledge of Python. This course was originally developed for students in the fields of: Civil Engineering, Environmental Engineering, Applied Earth Sciences and Construction Management and Engineering. These programs are part of the faculty of Civil Engineering and Geosciences at Delft University of Technology in the Netherlands. We try to draw on examples from these fields, but the course contents should be relevant for any engineering or applied geoscience discipline.
+  Python for Engineers is an interactive online textbook (website)
+  that functions as
+  a self-paced online course. It is meant to provide
+  (and refresh) knowledge of the Python Programming language. The most recent version of the
+  book can be found at https://oit.tudelft.nl/learn-python
+  
+  This course was originally
+  developed for students in the fields of: Civil Engineering,
+  Environmental Engineering, Applied Earth Sciences and Construction
+  Management and Engineering. These programs are part of the faculty
+  of Civil Engineering and Geosciences at Delft University of
+  Technology in the Netherlands. We try to draw on examples from
+  these fields, but the course contents should be relevant for any
+  engineering or applied geoscience discipline.
 keywords:
   - open interactive textbook
   - education
