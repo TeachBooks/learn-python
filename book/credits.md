@@ -3,7 +3,7 @@
 
 You can refer to this book in its entirety as:
 
-> Lanzafame, R., Verhagen, S., Alvarenga, G., Farahat, A., Mendoza Lugo, M. (2025), Python for Engineers. https://oit.tudelft.nl/learn-python/2025, CC BY 4.0. [doi:10.5281/zenodo.xxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxx).
+> Lanzafame, R., Verhagen, S., Alvarenga, G., Farahat, A., Mendoza Lugo, M. (2024), Python for Engineers. https://oit.tudelft.nl/learn-python/2024, CC BY 4.0. [doi:10.5281/zenodo.xxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxx).
 
 Note that this book draws heavily on the content of ["Think Python 2nd Edition" by Allen B. Downey](https://greenteapress.com/wp/think-python-2e/), which is generously provided with a CC BY NC 3.0 Unported license, allowing us to create this Python resource that is customized for our own students.
 
