@@ -20,20 +20,21 @@ The course "Learn Python for Engineers" aims to provide freshman master students
 6. Enhance their academic performance and future professional prospects.
 7. Become part of a vibrant learning community and foster collaboration with fellow classmates.
 
-Join us in this exciting journey to acquire the necessary programming skills that will empower you in your academic and professional pursuits.
-
-The course is organized as follows:
-- Interactive exercises are found in Course Contents, where theory and exercises are introduced
-- Each chapter contains at least two parts: theory and exercises. For this edition on the chapter on `numpy` contains more than one Exercise section, but this may change in the future.
-- The "In a Nutshell" chapters do not contain any interactive elements.
-
-This book is 
+Visit the [book introduction page](https://tudelft-citg.github.io/learn-python/) for more information.
 
 ## Acknowledgments
 
 Financial support for this project was provided through an open education grant from the Educational Management Team for the Civil Engineering and Geosciences Faculty at Delft. The content was first developed for Summer 2022 by Sandra Verhagen and a team of TA's in Jupyter notebooks that were auto-graded in Vocareum (Guilherme Ferreira Sêco de Alvarenga, Arsenijs Nitijevskis and Jarno Vegting). For Summer 2023 a second round of funding was optained to update the content and adapt it to an entirely open and self-paced course without enrollement via a Jupyter Book, led by Robert Lanzafame. Special thanks goes to Miguel Mendoza Lugo who adapted the notebooks into the Jupyter Book format and implemented the interactive features, as well as Ahmed Farahat, who helped create the fun new visual features that make understanding the material easier in the Jupyter Book platform, as well as the In a Nutshell summaries. Guilherme Ferreira Sêco de Alvarenga made improvements to the content and set up the interactive Python feature via [TeachBooks](teachbooks.io) tools. In late 2024 and 2025, Shiya Tang improved the contents and converted exercises from JupyterQuiz to H5p.
 
 This Book is maintained and developed by staff of the Faculty of Civil Engineering and Geosciences of TU Delft, the Netherlands. If you have questions or suggestions, get in touch via a GitHub Issue or by email at MUDE-CEG@tudelft.nl.
+
+## Technical Details
+
+This book is created using open source tools: it is a Jupyter Book that uses a number of features from [TeachBooks](https://teachbooks.io/) and is written using Markdown, Jupyter notebooks and Python files to generate some figures. See the Credits page for additional information.
+
+Starting with the 2025-26 academic year, the book uses semantic versioning of form `vA.B.C`, where `A` is the major version as an academic year (e.g., 2025), `B` is the minor version and `C` is the patch version. The major version updates will not necessarily occur every year; for example, in 2027 we may still be on version `v2025.7.x`.
+
+Also beginning with the 2025-26 academic year, the TeachBooks Deploy Book Workflow is used to redirect users to the major version of the book in use, with branches being named accordingly (e.g., `2024` and `2025`). When a new major version is released, the default branch in GitHub should also be updated, reflecting the current major version.
 
  <img src="https://raw.githubusercontent.com/TUDelft-CITG/learn-python/mike/book/figures/TUDelft_logo_cmyk.png" width=170  style="float: right;"/> 
 
